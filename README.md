@@ -22,3 +22,4 @@
 ⭐ Fun Fact
 
 I love building intelligent systems and automation.
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=granth-alpha2&show_icons=true&theme=tokyonight)
