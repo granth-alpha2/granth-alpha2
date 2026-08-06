@@ -1,25 +1,23 @@
-# Hi 👋 I'm Granth Chauhan
+────────────────────────────────────
 
-🎓 B.Tech CSE Student at KIET
+👋 Hi, I'm Granth Chauhan
 
-💻 Interested in
+Cloud ☁️ | DevOps ⚙️ | AI 🤖 | Security 🔒
 
-- Cloud Computing
-- DevOps
-- AI
-- Cyber Security
+------------------------------------
 
-🚀 Currently Learning
+📊 GitHub Stats
 
-- Docker
-- Kubernetes
-- AWS
-- Terraform
-- Linux
+🔥 Streak
 
-🏆 LeetCode Solved: 246+
+💻 Tech Stack
 
-⭐ Fun Fact
+🏆 GitHub Trophies
 
-I love building intelligent systems and automation.
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=granth-alpha2&show_icons=true&theme=tokyonight)
+📈 LeetCode
+
+🚀 Featured Projects
+
+📫 Connect
+
+────────────────────────────────────
