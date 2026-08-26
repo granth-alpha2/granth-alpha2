@@ -2,7 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0F172A,50:1E3A8A,100:0F172A&text=Uday%20Sharma&fontColor=ffffff&fontSize=54&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20DevOps%20Learner&descAlignY=60&descSize=16"/>
 </p>
 
-<h1 align="center">Hi 👋, I'm Uday Sharma</h1>
+<h1 align="center">Hi 👋, I'm Granth chauhan</h1>
 <h3 align="center">
 💻 Computer Science Student • 🤖 AI Enthusiast • 🚀 Full Stack Developer • ☁️ DevOps Learner
 </h3>
@@ -29,7 +29,7 @@
 # 🚀 About Me
 
 ```yaml
-Name: Uday Sharma
+Name: Granth chauhan
 Education: B.Tech Computer Science
 College: KIET Group of Institutions
 Focus:
