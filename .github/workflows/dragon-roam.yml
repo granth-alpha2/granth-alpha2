@@ -1,0 +1,47 @@
+name: Generate Dragon Roam Contribution Graph
+
+on:
+  schedule:
+    # 03:00 UTC daily
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-update-dragon-roam:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Generate Dragon Roam Contribution SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: npx tsx scripts/generate-dragon-roam.ts "${{ github.repository_owner }}"
+
+      - name: Commit and Push Generated Assets
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore(dragon-roam): update live contribution graphs [skip ci]"
+          file_pattern: "assets/dragon-roam*.svg"
+
