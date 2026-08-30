@@ -1,279 +1,174 @@
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0F172A,50:1E3A8A,100:0F172A&text=Granth%20Chauhan&fontColor=ffffff&fontSize=54&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20DevOps%20Learner&descAlignY=60&descSize=16"/>
-</p>
-
-<h1 align="center">Hi 👋, I'm Granth Chauhan</h1>
-<h3 align="center">
-💻 Computer Science Student • 🤖 AI Enthusiast • 🚀 Full Stack Developer • ☁️ DevOps Learner
-</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3500&pause=1000&color=3B82F6&center=true&vCenter=true&width=900&lines=Welcome+to+My+GitHub!;AI+%7C+Machine+Learning+Enthusiast;Spring+Boot+Developer;MERN+Stack+Developer;Linux+%7C+Docker+%7C+AWS;Cyber+Security+Learner;Open+Source+Contributor;Always+Building+Something+Awesome!"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:05010F,30:0B132B,65:1C2541,100:00F5FF&text=GRANTH%20CHAUHAN&fontColor=ffffff&fontSize=52&animation=fadeIn&fontAlignY=36&desc=AI%20Engineer%20%E2%80%A2%20DevSecOps%20Learner%20%E2%80%A2%20Full%20Stack%20Architect&descAlignY=58&descSize=16&descColor=00F5FF"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=granth-alpha2&label=Profile%20Views&style=for-the-badge&color=1E3A8A"/>
-  <img src="https://img.shields.io/github/followers/granth-alpha2?style=for-the-badge&logo=github&logoColor=white&color=1E3A8A&labelColor=0F172A"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=00F5FF&center=true&vCenter=true&width=950&lines=%3E+INITIALIZING+SYSTEM+CORE...;%3E+AI+%26+Machine+Learning+Architect;%3E+Full+Stack+Developer+%5BSpring+Boot+%2B+Next.js+%2B+MERN%5D;%3E+DevSecOps+%7C+AWS+Cloud+%7C+Docker+%7C+Kubernetes;%3E+Linux+Kernel+Enthusiast+%26+Cyber+Security+Learner;%3E+Building+Scalable%2C+Intelligent+Software+Solutions!"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-SYSTEM_ONLINE_🟢-05010F?style=for-the-badge&logoColor=00F5FF&labelColor=05010F&color=00F5FF"/>
+  <img src="https://img.shields.io/badge/CLEARANCE-DEVSECOPS_READY-05010F?style=for-the-badge&logoColor=FF00E5&labelColor=05010F&color=FF00E5"/>
+  <img src="https://komarev.com/ghpvc/?username=granth-alpha2&label=SYS_VIEWS&style=for-the-badge&color=7C1FD6&labelColor=05010F"/>
+  <img src="https://img.shields.io/github/followers/granth-alpha2?style=for-the-badge&logo=github&logoColor=white&color=00F5FF&labelColor=05010F"/>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 </p>
 
 ---
 
-# 🚀 About Me
+### ⚡ System Core Diagnostics
 
 ```yaml
-Name: Granth Chauhan
-Education: B.Tech Computer Science
-College: KIET Group of Institutions
-Focus:
-  - Artificial Intelligence
-  - Full Stack Development
-  - Spring Boot
-  - MERN Stack
-  - DevOps
-  - Cyber Security
-Currently Building:
-  - 🌾 AgriProfit - AI-Powered Smart Crop & Farm Profit Optimization Platform
-  - 🌐 Full Stack Applications
-  - ☁️ Cloud-Based Projects
-Mission:
-  Build scalable software that solves real-world problems.
+┌── [ SYSTEM INFORMATION // GRANTH_OS_v2.6 ] ─────────────────────────────┐
+│                                                                         │
+│  • Identity        : Granth Chauhan                                     │
+│  • Role            : AI Engineer • Full Stack Developer • DevSecOps     │
+│  • Academics       : B.Tech in Computer Science                         │
+│  • Institution     : KIET Group of Institutions                         │
+│  • Core Domains    : Artificial Intelligence, Distributed Microservices,│
+│                      Cloud Infrastructure & Cyber Defense               │
+│  • Active Protocol : AgriProfit — AI-Powered Smart Farm Profit Engine   │
+│  • Mission Logic   : "Architect resilient software that bridges complex │
+│                      algorithms with real-world impact."                │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-# ⚡ Developer Matrix
+### 🎛️ Developer Proficiency Matrix
 
 ```text
-🧠 Problem Solving      ██████████ 100%
-💻 Backend              █████████░ 90%
-🤖 AI & ML              █████████░ 90%
-☁️ DevOps               ███████░░░ 70%
-🐧 Linux                ██████████ 95%
-🔐 Cyber Security       ███████░░░ 70%
-🚀 Learning             ██████████ 100%
+🧠 Problem Solving & Algorithms  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100% [MASTER]
+🤖 AI / Machine Learning Engine  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░  90% [ADVANCED]
+💻 Backend Architecture (Spring) ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░  90% [ADVANCED]
+🐧 Linux Systems & Shell Script  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░  95% [EXPERT]
+☁️ Cloud & DevOps (AWS/K8s/CI)   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░  75% [PROFICIENT]
+🔐 Cyber Security & DefSecOps    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░  75% [PROFICIENT]
+🚀 Continuous Learning Pipeline  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100% [ACTIVE]
 ```
 
 ---
 
-# 💻 Tech Stack
+### 🛠️ Neural Tech Ecosystem
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=java,spring,python,javascript,c,cpp,react,nextjs,nodejs,express,mongodb,postgres,mysql,docker,kubernetes,aws,linux,bash,git,github,vscode,idea,postman"/>
+#### 🧠 Artificial Intelligence & Data Science
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,scikitlearn,numpy,pandas"/>
+</p>
+
+#### 💻 Backend & Core Frameworks
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,c,cpp"/>
+</p>
+
+#### 🌐 Frontend & User Interface
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,javascript,typescript,tailwind,html,css"/>
+</p>
+
+#### ☁️ Cloud, DevOps & Infrastructure
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,linux,bash,git,github,githubactions"/>
+</p>
+
+#### 🗄️ Database & Storage Engines
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis"/>
+</p>
+
+#### 🧰 Developer Toolkit & IDEs
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=vscode,idea,postman,powershell,windows"/>
 </p>
 
 ---
 
-# 📚 Currently Learning
+### 🚀 Active Missions & Featured Projects
+
+| 🛸 Project | 🛰️ Architecture & Tech | 📄 Mission Objective |
+|:---|:---|:---|
+| **🌾 AgriProfit** | `Python` `TensorFlow` `FastAPI` `React` | **AI-powered smart crop & farm yield optimizer** leveraging predictive modeling for maximum harvest profit. |
+| **🌐 Spring Cloud Microservices** | `Java 21` `Spring Boot 3` `PostgreSQL` `Docker` | High-throughput, fault-tolerant **RESTful API ecosystem** built with modular microservices design. |
+| **🛡️ DevSecOps Pipeline** | `Docker` `Kubernetes` `AWS` `GitHub Actions` | Automated **zero-trust CI/CD deployment pipeline** with integrated vulnerability scanning. |
+| **⚡ MERN SaaS Platform** | `MongoDB` `Express` `React` `Node.js` `Tailwind` | Modern, responsive **full-stack web architecture** with real-time state management. |
+
+---
+
+### 🔥 GitHub Performance & Activity
 
 <p align="center">
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900"/>
-<img src="https://img.shields.io/badge/Cyber_Security-1E3A8A?style=for-the-badge&logoColor=white"/>
+  <img src="https://streak-stats.demolab.com/?user=granth-alpha2&theme=tokyonight&hide_border=true&background=05010F&ring=00F5FF&fire=FF00E5&currStreakLabel=00F5FF&sideLabels=94A3B8&dates=94A3B8&currStreakNum=00F5FF" width="85%"/>
 </p>
 
 ---
 
-# 🚀 Mission Control
+### 🎖️ Certifications & Credentials
 
-```yaml
-Status: 🟢 Online
-Current Mission:
-  ✓ Build AI Applications
-  ✓ Master Spring Boot
-  ✓ Learn Kubernetes
-  ✓ Explore AWS
-  ✓ Contribute to Open Source
-Target:
-  Software Engineer 🚀
-```
+- ☁️ **AWS Certified Cloud Practitioner** — *Amazon Web Services*
+- 🏗️ **AWS Certified Solutions Architect** — *Amazon Web Services*
+- 🎓 **Bachelor of Technology (B.Tech) in Computer Science** — *KIET Group of Institutions*
 
 ---
 
-# 🚀 Featured Projects
-
-| 🚀 Project | 📄 Description |
-|------------|----------------|
-| 🌾 AgriProfit | AI-powered smart crop & farm profit optimization platform |
-| 🌐 Spring Boot APIs | RESTful backend applications |
-| 💻 MERN Applications | Modern full-stack web applications |
-| ☁️ Cloud Projects | Docker, Kubernetes & AWS deployments |
-
----
-
-# 📊 GitHub Summary
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/granth-alpha2/granth-alpha2/main/readme-assets/cards/profile-details.svg" width="100%"/>
-</p>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/granth-alpha2/granth-alpha2/main/readme-assets/cards/stats.svg" width="60%"/>
-</p>
-
----
-
-# 💻 Programming Languages
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/granth-alpha2/granth-alpha2/main/readme-assets/cards/languages.svg" width="60%"/>
-</p>
-
----
-
-# 🔥 GitHub Streak
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/granth-alpha2/granth-alpha2/main/readme-assets/streak.svg"/>
-</p>
-
----
-
-# 🐉 System Guardian & Contribution Matrix
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/dragon-roam-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/dragon-roam.svg">
-    <img alt="System Guardian Dragon Roam" src="assets/dragon-roam-dark.svg" width="100%">
-  </picture>
-</p>
-
-> Note: The Dragon Roam contribution graph above is dynamically generated and updated daily by GitHub Actions ([`.github/workflows/dragon-roam.yml`](.github/workflows/dragon-roam.yml)), patrolling the real-time contribution calendar.
-
----
-
-# 🏅 Certifications
-
-- ☁️ AWS Certified Cloud Practitioner
-- 🏗️ AWS Certified Solutions Architect
-
----
-
-# 🌟 Interests
-
-- 🤖 Artificial Intelligence
-- 🌾 AgriTech & Applied AI
-- ☁️ Cloud Computing
-- 🐳 Docker & Kubernetes
-- 🌐 Backend Development
-- 🔐 Cyber Security
-- 🐧 Linux
-- 🚀 Open Source
-
----
-
-# 🧰 Development Environment
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=windows,linux,vscode,idea,git,github,bash,postman,docker"/>
-</p>
-
----
-
-# 💡 Daily Workflow
+### 🛰️ Telemetry & Daily Workflow
 
 ```text
-💻 Code
-     │
-     ▼
-🧪 Test
-     │
-     ▼
-🐛 Debug
-     │
-     ▼
-🚀 Deploy
-     │
-     ▼
-📚 Learn
-     │
-     └──────────────► Repeat 🔁
+┌──────────────┐       ┌──────────────┐       ┌──────────────┐
+│  01. DESIGN  │ ───►  │  02. CODE    │ ───►  │  03. TEST    │
+│ Architecture │       │ Clean Logic  │       │ Unit & Integ │
+└──────────────┘       └──────────────┘       └──────────────┘
+                                                     │
+┌──────────────┐       ┌──────────────┐              ▼
+│  06. OPTIMIZE│ ◄───  │  05. MONITOR │ ◄───  ┌──────────────┐
+│  Scale & Ref │       │  CI/CD Logs  │       │  04. DEPLOY  │
+└──────────────┘       └──────────────┘       │  Cloud / AWS │
+       │                                      └──────────────┘
+       └─────────────────────────────────────────────► [REPEAT 🔁]
 ```
 
 ---
 
-# 📊 Current Goals
-
-- 🎯 Master Spring Boot
-- 🎯 Build scalable MERN applications
-- 🎯 Learn Kubernetes
-- 🎯 Deploy AI projects on AWS
-- 🎯 Contribute to Open Source
-- 🎯 Improve Cyber Security skills
-
----
-
-# 📚 Favorite Technologies
+### 📡 Neural Uplink (Connect)
 
 <p align="center">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-</p>
-
----
-
-# 🌐 Connect With Me
-
-<p align="center">
-<a href="https://github.com/granth-alpha2">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/in/granthchauhan777/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:chauhangranth02@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-</p>
-
----
-
-# 👀 Visitor Counter
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=granth-alpha2&label=Visitors&style=for-the-badge&color=1E3A8A"/>
-</p>
-
----
-
-# ❤️ Support My Work
-
-<p align="center">
-⭐ Star my repositories if you find them useful.
-🍴 Fork projects that interest you.
-🤝 Feel free to connect and collaborate.
+  <a href="https://github.com/granth-alpha2" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-00F5FF?style=for-the-badge&logo=github&logoColor=05010F&labelColor=05010F"/>
+  </a>
+  <a href="https://www.linkedin.com/in/granthchauhan777/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=05010F"/>
+  </a>
+  <a href="https://leetcode.com/u/chauhangranth02/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=05010F"/>
+  </a>
+  <a href="mailto:chauhangranth02@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=05010F"/>
+  </a>
+  <a href="https://www.instagram.com/cathexis_granth" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=05010F"/>
+  </a>
 </p>
 
 ---
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1E3A8A&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:05010F,50:1C2541,100:00F5FF&height=120&section=footer"/>
 </p>
-
-<h2 align="center">
-⭐ Thanks for Visiting My Profile ⭐
-</h2>
 
 <p align="center">
-<i>"Code • Learn • Build • Repeat 🚀"</i>
+  <i>"Transforming complex algorithms into resilient, high-performance intelligent systems."</i>
 </p>
 
+<h3 align="center">
+  ⚡ SYSTEM READY // ALWAYS BUILDING ⚡
+</h3>
