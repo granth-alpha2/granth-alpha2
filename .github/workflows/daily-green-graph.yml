@@ -51,3 +51,4 @@ jobs:
           git add assets/
           git commit -m "chore(activity): daily green graph bump [skip ci]" || git commit --allow-empty -m "chore(activity): daily green bump [skip ci]"
           git push origin main
+
