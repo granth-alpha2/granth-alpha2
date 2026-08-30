@@ -1,0 +1,53 @@
+name: Daily Green Contribution Graph & Snake Animation
+
+on:
+  schedule:
+    # 21:30 UTC = Exactly 3:00 AM IST (Indian Standard Time) every single day
+    - cron: '30 21 * * *'
+  workflow_dispatch: # Allows manual run anytime from the Actions tab
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/daily-green-graph.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-daily-green-graph:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Ensure Assets Directory Exists
+        run: mkdir -p assets
+
+      # 1. Generate Snake Animation over Real GitHub Contribution Graph
+      - name: Generate Contribution Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake.svg
+            assets/snake-dark.svg?palette=github-dark&color_snake=#00F5FF&color_dots=#161B22,#0E4429,#006D32,#26A641,#39D353
+
+      # 2. Update Daily Timestamp to guarantee a daily commit that counts for the green contribution square
+      - name: Update Daily Contribution Timestamp
+        run: |
+          date -u +"%Y-%m-%d %H:%M:%S UTC" > assets/.daily-bump
+
+      # 3. Commit and Push with your verified GitHub author identity
+      - name: Commit and Push (Daily Green Graph Activity)
+        run: |
+          git config --global user.name "Granth Chauhan"
+          git config --global user.email "chauhangranth02@gmail.com"
+          git add assets/
+          git commit -m "chore(activity): daily green graph bump [skip ci]" || git commit --allow-empty -m "chore(activity): daily green bump [skip ci]"
+          git push origin main
