@@ -54,4 +54,5 @@ jobs:
           git config --global user.email "chauhangranth02@gmail.com"
           git add assets/
           git commit -m "chore(activity): daily green graph bump [skip ci]" || git commit --allow-empty -m "chore(activity): daily green bump [skip ci]"
+          git pull --rebase origin main
           git push origin main
