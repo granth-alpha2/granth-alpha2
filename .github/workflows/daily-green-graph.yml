@@ -2,11 +2,17 @@ name: Daily Green Contribution Graph & Snake Animation
 
 on:
   schedule:
-    # Runs at 6:00 AM IST every day
+    # Runs at 6:00 AM IST every day (00:30 UTC)
     - cron: '30 0 * * *'
 
   # Allows manual execution from GitHub Actions
   workflow_dispatch:
+    inputs:
+      force_run:
+        description: 'Force commit even on SKIP days (for testing)'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -20,27 +26,40 @@ jobs:
       TZ: Asia/Kolkata
 
     steps:
-      # 1. Decide whether today is a commit day
+      # 1. Decide whether today is a commit day based on a deterministic 5-day cycle
       - name: Check Commit Pattern
         id: schedule
+        env:
+          FORCE_RUN: ${{ inputs.force_run }}
         run: |
-          DAY_NUMBER=$(( $(date +%s) / 86400 ))
-
-          # Repeating pattern:
-          # SKIP, COMMIT, COMMIT, SKIP, SKIP
-          PATTERN=("skip" "commit" "commit" "skip" "skip")
-
+          # Calculate days since Unix epoch in Indian Standard Time (UTC + 5h 30m = +19800s)
+          DAY_NUMBER=$(( ($(date +%s) + 19800) / 86400 ))
           INDEX=$(( DAY_NUMBER % 5 ))
+
+          # Exact repeating 5-day cycle:
+          # Index 0: SKIP
+          # Index 1: COMMIT
+          # Index 2: COMMIT
+          # Index 3: SKIP
+          # Index 4: SKIP
+          PATTERN=("skip" "commit" "commit" "skip" "skip")
           TODAY="${PATTERN[$INDEX]}"
 
-          echo "Today's pattern: $TODAY"
+          CURRENT_IST=$(date +"%Y-%m-%d %H:%M:%S %Z")
+          echo "Current IST Time: $CURRENT_IST"
+          echo "Day count: $DAY_NUMBER (Cycle index: $INDEX of 0..4)"
+          echo "Scheduled pattern decision: $TODAY"
 
-          if [ "$TODAY" = "commit" ]; then
+          if [ "$FORCE_RUN" = "true" ]; then
+            echo "Manual override enabled (force_run=true)."
             echo "run_today=true" >> "$GITHUB_OUTPUT"
-            echo "Today is a commit day."
+            echo "Proceeding with commit steps."
+          elif [ "$TODAY" = "commit" ]; then
+            echo "run_today=true" >> "$GITHUB_OUTPUT"
+            echo "Today is a scheduled COMMIT day."
           else
             echo "run_today=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping today's commit."
+            echo "Today is a scheduled SKIP day. Skipping commit steps."
           fi
 
       # 2. Checkout repository on commit days only
@@ -48,10 +67,11 @@ jobs:
         if: steps.schedule.outputs.run_today == 'true'
         uses: actions/checkout@v4
         with:
+          ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      # 3. Create assets directory
+      # 3. Create assets directory if missing
       - name: Ensure Assets Directory Exists
         if: steps.schedule.outputs.run_today == 'true'
         run: mkdir -p assets
@@ -72,7 +92,7 @@ jobs:
         run: |
           date +"%Y-%m-%d %H:%M:%S %Z" > assets/.daily-bump
 
-      # 6. Commit and push changes
+      # 6. Commit and push changes safely
       - name: Commit and Push
         if: steps.schedule.outputs.run_today == 'true'
         run: |
@@ -81,8 +101,24 @@ jobs:
 
           git add assets/
 
+          if git diff --staged --quiet; then
+            echo "Error: No asset changes detected to commit." >&2
+            exit 1
+          fi
+
           git commit -m "chore(activity): contribution graph update [skip ci]"
 
-          git pull --rebase origin main
+          # Rebase to safely handle any concurrent remote commits
+          if ! git pull --rebase origin main; then
+            echo "Error: git pull --rebase failed. Aborting rebase." >&2
+            git rebase --abort || true
+            exit 1
+          fi
 
-          git push origin main
+          # Push to main branch
+          if ! git push origin main; then
+            echo "Error: git push failed." >&2
+            exit 1
+          fi
+
+          echo "Successfully updated and pushed contribution assets to main."
